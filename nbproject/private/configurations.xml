@@ -7,6 +7,7 @@
       <df name="obj">
       </df>
       <df name="src">
+        <in>dproductos.c</in>
         <in>main.c</in>
       </df>
     </df>

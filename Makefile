@@ -4,18 +4,17 @@
 
 CC= gcc -c
 
-CLINKER= gcc -lm -o 
+CLINKER= gcc -o
 
 CFLAGS= -O3 -Wall
 
-LIBS= 
+LIBS= -lm -lgsl -lgslcblas 
 
 
 OBJ= main.o \
-	
-	
-	
+     dproductos.o \
 
+	
 DIR_SRC= ./src/
 DIR_BIN= ./bin/
 DIR_OBJ= ./obj/
